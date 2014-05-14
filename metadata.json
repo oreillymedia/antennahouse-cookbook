@@ -29,5 +29,5 @@
     "antennahouse": "Installs antennahouse",
     "antennahouse::license": "Installs an antennahouse license into the current Antennahouse program"
   },
-  "version": "0.0.1"
+  "version": "0.0.2"
 }
