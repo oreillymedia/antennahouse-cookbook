@@ -1,0 +1,33 @@
+{
+  "name": "antennahouse",
+  "description": "Installs and configures Antennahouse",
+  "long_description": "",
+  "maintainer": "Rune Skjoldborg Madsen",
+  "maintainer_email": "rune@oreilly.com",
+  "license": "Apache 2.0",
+  "platforms": {
+    "ubuntu": ">= 0.0.0",
+    "debian": ">= 0.0.0"
+  },
+  "dependencies": {
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "groupings": {
+  },
+  "recipes": {
+    "antennahouse": "Installs antennahouse",
+    "antennahouse::license": "Installs an antennahouse license into the current Antennahouse program"
+  },
+  "version": "0.0.1"
+}
