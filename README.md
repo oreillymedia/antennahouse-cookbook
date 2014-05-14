@@ -12,6 +12,4 @@ Then, run a knife script to generate the `metadata.json` file from `metadata.rb`
 knife cookbook metadata .
 ```
 
-Then, push to github and create a release after this version number.
-
-Then, dowload the tar and upload to Opscode Community.
+Then, making sure that the repo folder is called `antennahouse`, zip the folder and upload as `.tar` file to Opscode Community.

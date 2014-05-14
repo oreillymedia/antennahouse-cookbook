@@ -4,7 +4,7 @@ maintainer_email  "rune@oreilly.com"
 license           "Apache 2.0"
 description       "Installs and configures Antennahouse"
 
-version           "0.0.2"
+version           "0.0.3"
 recipe            "antennahouse", "Installs antennahouse"
 recipe            "antennahouse::license", "Installs an antennahouse license into the current Antennahouse program"
 
