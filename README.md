@@ -13,3 +13,7 @@ knife cookbook metadata .
 ```
 
 Then, making sure that the repo folder is called `antennahouse`, zip the folder and upload as `.tar` file to Opscode Community.
+
+```
+tar -czf antennahouse.tar.gz antennahouse
+```
