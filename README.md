@@ -12,8 +12,10 @@ Then, run a knife script to generate the `metadata.json` file from `metadata.rb`
 knife cookbook metadata .
 ```
 
-Then, making sure that the repo folder is called `antennahouse`, zip the folder and upload as `.tar` file to Opscode Community.
+Then, after [doing terrible things to setup knife](http://fabiorehm.com/blog/2013/10/01/sharing-chef-cookbooks/), you can run this from the cookbook repo:
 
 ```
-tar -czf antennahouse.tar.gz antennahouse
+knife cookbook site share antennahouse "Package Management"
 ```
+
+You can find the `.pem` file by logging into your `getchef.com` account.
